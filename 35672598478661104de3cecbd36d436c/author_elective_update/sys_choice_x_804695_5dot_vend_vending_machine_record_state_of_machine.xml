@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="state_of_machine" table="x_804695_5dot_vend_vending_machine_record" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>state_of_machine</element>
+            <name>x_804695_5dot_vend_vending_machine_record</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-03 00:32:49</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>state_of_machine</sys_name>
+            <sys_package display_value="5Dot Vending Service" source="x_804695_5dot_vend">35672598478661104de3cecbd36d436c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="5Dot Vending Service">35672598478661104de3cecbd36d436c</sys_scope>
+            <sys_update_name>sys_choice_x_804695_5dot_vend_vending_machine_record_state_of_machine</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-03 00:32:49</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state_of_machine</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Disabled</label>
+            <language>en</language>
+            <name>x_804695_5dot_vend_vending_machine_record</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-03 00:32:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>330a255c478661104de3cecbd36d431c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-03 00:32:49</sys_updated_on>
+            <value>disabled</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state_of_machine</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>In Stock</label>
+            <language>en</language>
+            <name>x_804695_5dot_vend_vending_machine_record</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-03 00:32:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b30a255c478661104de3cecbd36d4323</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-03 00:32:49</sys_updated_on>
+            <value>in_stock</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state_of_machine</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Operational</label>
+            <language>en</language>
+            <name>x_804695_5dot_vend_vending_machine_record</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-03 00:32:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fb0a255c478661104de3cecbd36d4318</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-03 00:32:49</sys_updated_on>
+            <value>operational</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state_of_machine</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pending Repair</label>
+            <language>en</language>
+            <name>x_804695_5dot_vend_vending_machine_record</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-03 00:32:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3f0a255c478661104de3cecbd36d4320</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-03 00:32:49</sys_updated_on>
+            <value>pending_repair</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state_of_machine</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pending Service</label>
+            <language>en</language>
+            <name>x_804695_5dot_vend_vending_machine_record</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-03 00:32:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b70a255c478661104de3cecbd36d431e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-03 00:32:49</sys_updated_on>
+            <value>pending_service</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state_of_machine</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Put Note to Journal</label>
+            <language>en</language>
+            <name>x_804695_5dot_vend_vending_machine_record</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-03 00:32:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bf0a255c478661104de3cecbd36d4327</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-03 00:32:49</sys_updated_on>
+            <value>put_note_to_journal</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state_of_machine</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Refill Requested</label>
+            <language>en</language>
+            <name>x_804695_5dot_vend_vending_machine_record</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-03 00:32:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3b0a255c478661104de3cecbd36d4325</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-03 00:32:49</sys_updated_on>
+            <value>refill_requested</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

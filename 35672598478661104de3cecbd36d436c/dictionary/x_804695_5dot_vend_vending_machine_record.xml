@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5b0ae15c478661104de3cecbd36d430a" label="Vending Machine Record" max_length="40" name="x_804695_5dot_vend_vending_machine_record" type="collection">
+        <element attributes="encode_utf8=false" label="Company Owner" mandatory="true" max_length="32" name="company_owner" reference="core_company" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Date of Installation" max_length="40" name="date_of_installation" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Date of Purchase" max_length="40" name="date_of_purchase" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Journal log of services" mandatory="true" max_length="4000" name="journal_log_of_services" type="journal"/>
+        <element attributes="edge_encryption_enabled=true" label="Last Time Serviced" max_length="40" name="last_time_serviced" type="glide_date_time"/>
+        <element label="Location" mandatory="true" max_length="32" name="location" reference="cmn_location" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Machine Content" max_length="100" name="machine_content" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Machine Name" mandatory="true" max_length="40" name="machine_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Open Order &amp; View" max_length="40" name="number" type="string"/>
+        <element attributes="encode_utf8=false" label="Service Technician" mandatory="true" max_length="32" name="service_technician" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="operational" label="State of Machine" mandatory="true" max_length="40" name="state_of_machine" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Disabled" value="disabled"/>
+                <element inactive_on_update="false" label="In Stock" value="in_stock"/>
+                <element inactive_on_update="false" label="Operational" value="operational"/>
+                <element inactive_on_update="false" label="Pending Repair" value="pending_repair"/>
+                <element inactive_on_update="false" label="Pending Service" value="pending_service"/>
+                <element inactive_on_update="false" label="Put Note to Journal" value="put_note_to_journal"/>
+                <element inactive_on_update="false" label="Refill Requested" value="refill_requested"/>
+            </choice>
+        </element>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="owned" label="Type of Ownership" mandatory="true" max_length="40" name="type_of_ownership" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Leased" value="leased"/>
+                <element inactive_on_update="false" label="Owned" value="owned"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="company_owner"/>
+        </index>
+        <index name="index2">
+            <element name="location"/>
+        </index>
+        <index name="index3">
+            <element name="service_technician"/>
+        </index>
+        <index name="index4">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
